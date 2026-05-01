@@ -5,7 +5,7 @@ This short project builds a Simulink DC motor speed-control model, then tunes PI
 
 Each training case is based off a "score", which I later found that the variable J is the proper control systems syntax. The score is based off of if the response has a lower tracking error, less overshoot, less final error, less control effort, and less late error. All PID gains are tested based off of this system.
 
-The score really only tells us what is good for this case of motor. The search/prediction is pretty narrow.
+The score really only tells us what is good for this case of motor. The search/prediction is pretty narrow, so future work involves mutliple cases of motors.
 
 Downloads:
 
